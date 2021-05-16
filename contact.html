@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>ABOCATION:CONTACT</title>
+</head>
+<body>
+    <header>
+        <h1>ABOCATION</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="abocation.html">Abocation</a></li>
+                <li><a href="services.html">Services</a> </li>
+                <li><a href="">Place</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="AboutUs.html">About us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <aside>
+        <img type="image" src="imagenes/portada/portada businessplan.PNG" width="20%" height="90%">
+    </aside>
+    <div id="datosopinion">
+        <h1>CONTACT WITH US</h1>
+        <section>
+            <h2>Enter your data</h2>
+            <form method="post">
+                <div class="datosOpinion">
+                    <label for="nombre">Name</label>
+                    <input type="text" id="nombre" name="Nombre" placeholder="Name" required>
+                </div>
+                <div class="datosOpinion">
+                    <label for="apellidos">Last name</label>
+                    <input type="text" id="apellidos" placeholder="Last name" required>
+                </div>
+                <div class="datosOpinion">
+                    <label for="nif">NIF</label>
+                    <input type="text" id="nif" placeholder="12345678A" required>
+                </div>
+                <div class="datosOpinion">
+                    <label for="sexo">Sex</label>
+                    <input type="text" id="sexo" placeholder="Sex" required>
+                </div>
+                <div class="datosOpinion">
+                    <label for="fecha">Date of birth</label>
+                    <input type="date" id="fecha" required>
+                </div>
+                <div class="datosOpinion">
+                    <label for="direccion">Address</label>
+                    <input type="text" id="direccion" placeholder="Address" required>
+                </div>
+                <div class="datosOpinion">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" placeholder="123-456-789" required>
+                </div>
+                <div class="datosOpinion">
+                    <label for="gmail">Email</label>
+                    <input type="text" id="gmail" placeholder="exemple@gmail.com" required>
+                </div>
+                <div>
+                    <label for="opinion">What do you want to tell us?</label>
+                    <div>
+                        <textarea
+                        name="opinion"
+                        rows="10"
+                        cols="40"
+                        placeholder="Leave your comment here"
+                        ></textarea>
+                    </div>
+                </div>
+                <label for="reset"></label>
+                <input type="reset" id="reset"/>
+                <label for="send"></label>
+                <input type="submit" id="send"/>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
