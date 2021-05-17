@@ -102,7 +102,6 @@ aside img{
 
 .empleado{
     display: flex;
-    flex-direction: column;
     margin: 2.5%;
     background-color: cornflowerblue;
     border: rgb(73, 137, 255) 2px solid;
@@ -115,4 +114,13 @@ aside img{
 
 .empleado h2{
     text-decoration: underline;
+}
+
+.empleado .infoEmpleado{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+}
+.empleado img{
+    padding: 0.5%;
 }

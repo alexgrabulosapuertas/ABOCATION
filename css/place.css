@@ -3,6 +3,7 @@ body{
     padding: 0%;
     background-color: lightskyblue;
 }
+
 header{
     background-color: white;
 
@@ -10,6 +11,7 @@ header{
     margin: 0%;
     width: 100%;
     height: 10%;
+
 
     position: fixed;
     display: flex;
@@ -86,85 +88,8 @@ aside img{
     position: fixed;
 }
 
-
-#servicios{
-    background-color:   skyblue;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    margin-top: 5%;
-    margin-right: 20%;
-    position: absolute;
-    z-index: -1;
-}
-
-section h2{
-    text-decoration: underline;
-    display: flex;
-    justify-content: center;
-}
-section h3{
-    text-decoration: underline;
-}
-
-.categoria{
-    margin-top: 5%;
-}
-.servicios{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.servicios .servicio{
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 5%;
-    background-color: cornflowerblue;
-    border: rgb(73, 137, 255) 2px solid;
-}
-.servicios .servicio p{
-    font-size: 20px;
-    padding: 1%;
-}
-.servicio .servicio h4{
-    margin: 1%;
-    padding: 1%;
-    text-decoration: underline;
-}
-
-
-
-
-
-footer{
-    position: fixed;
-
+.mapa{
+    position: relative;
+    padding: 5% 20% 5% 5%;
     bottom: 0%;
-    left: 0%;
-    
-    margin-right: 20%;
-
-    width: 80%;
-    height: 5%;
-
-    color: rgb(175, 211, 233);
-    background-color: rgb(55, 83, 100);
-
-    display: flex;
-    justify-content: space-around;
 }
-
-.footer{
-    display: flex;
-    align-items: center;
-}
- .redSocial{
-     display: flex;
-     flex-direction: row;
-     justify-content: center;
-     align-items: center;
- }
